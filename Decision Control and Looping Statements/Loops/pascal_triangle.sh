@@ -1,4 +1,4 @@
-row=5
+row=$1
 coef=1
 for ((i=0; i<row; i++)); do 
     for ((space=0; space<row-i; space++)); do
